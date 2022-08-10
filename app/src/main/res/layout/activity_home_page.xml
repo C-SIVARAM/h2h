@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#D5FFA000"
+    android:layout_height="match_parent"
+    tools:context="com.example.H2H.home_page">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/netconnection"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_baseline_menu_24" />
+
+            <SearchView
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:backgroundTint="#DCDAD6D2"
+                android:background="@drawable/button_background" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/back_color"
+                app:srcCompat="@drawable/ic_outline_notifications_24" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                            <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                                <androidx.cardview.widget.CardView
+                            android:layout_width="300dp"
+                            android:layout_height="190dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="20dp"
+                            app:cardBackgroundColor="#F7F1AD07"
+                            app:cardCornerRadius="70dp">
+
+                            <LinearLayout
+                                android:layout_width="300dp"
+                                android:layout_height="230dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/imageView6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="-39dp"
+                                    app:srcCompat="@drawable/pizza" />
+
+                                <TextView
+                                    android:layout_width="123dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="-250dp"
+                                    android:layout_marginTop="60dp"
+                                    android:fontFamily="monospace"
+                                    android:text="With coupen"
+                                    android:textColor="#FAF0EC"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="-140dp"
+                                    android:layout_marginTop="40dp"
+                                    android:fontFamily="monospace"
+                                    android:text="50% Offer"
+                                    android:textColor="#E8E4E3"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="120dp"
+                                android:fontFamily="sans-serif-condensed"
+                                android:text="pizza"
+                                android:textColor="#E8E4E3"
+                                android:textSize="25dp"
+                                android:textStyle="bold" />
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="300dp"
+                            android:layout_height="200dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            app:cardBackgroundColor="#F7F1AD07"
+                            app:cardCornerRadius="70dp">
+
+                            <LinearLayout
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/imageView6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    app:srcCompat="@drawable/burgur1" />
+
+                                <TextView
+                                    android:layout_width="123dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="-240dp"
+                                    android:layout_marginTop="60dp"
+                                    android:fontFamily="monospace"
+                                    android:text="With coupen"
+                                    android:textColor="#FAF0EC"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="-170dp"
+                                    android:layout_marginTop="40dp"
+                                    android:fontFamily="monospace"
+                                    android:text="50% Offer"
+                                    android:textColor="#E8E4E3"
+                                    android:textSize="17dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="120dp"
+                                android:fontFamily="sans-serif-condensed"
+                                android:text="Burgur"
+                                android:textColor="#E8E4E3"
+                                android:textSize="25dp"
+                                android:textStyle="bold" />
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="280dp"
+                            android:layout_height="200dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="20dp"
+                            app:cardBackgroundColor="#F7F1AD07"
+                            app:cardCornerRadius="70dp">
+
+                            <LinearLayout
+                                android:layout_width="280dp"
+                                android:layout_height="200dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    app:srcCompat="@drawable/hand_sendwiesh" />
+
+                                <TextView
+                                    android:layout_width="123dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="-250dp"
+                                    android:layout_marginTop="60dp"
+                                    android:fontFamily="monospace"
+                                    android:text="With coupen"
+                                    android:textColor="#FAF0EC"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="-140dp"
+                                    android:layout_marginTop="40dp"
+                                    android:fontFamily="monospace"
+                                    android:text="50% Offer"
+                                    android:textColor="#E8E4E3"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:fontFamily="sans-serif-condensed"
+                                android:text="sendwiesh"
+                                android:layout_marginTop="-12dp"
+                                android:textColor="#E8E4E3"
+                                android:textSize="25dp"
+                                android:textStyle="bold" />
+                        </androidx.cardview.widget.CardView>
+
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/food"
+/>
+
+                <ScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <androidx.gridlayout.widget.GridLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="25dp"
+                            app:cardBackgroundColor="#F7F1AD07"
+                            app:cardCornerRadius="30dp">
+
+                            <ImageView
+                                android:id="@+id/imageView7"
+                                android:layout_width="130dp"
+                                android:layout_height="130dp"
+                                app:srcCompat="@drawable/f8" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginTop="110dp"
+                                android:text="Pezza"
+                                android:textColor="#232321"
+                                android:textStyle="bold" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="25dp"
+                            app:cardBackgroundColor="#F7F1AD07"
+                            app:cardCornerRadius="40dp"
+                            app:layout_column="1">
+
+                            <ImageView
+                                android:id="@+id/cr1"
+                                android:layout_width="130dp"
+                                android:layout_height="130dp"
+                                app:srcCompat="@drawable/f13" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginTop="110dp"
+                                android:text="Those "
+                                android:textColor="#232321"
+                                android:textStyle="bold" />
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="25dp"
+                            app:cardBackgroundColor="#F7F1AD07"
+                            app:cardCornerRadius="40dp"
+                            app:layout_column="0"
+                            app:layout_row="1">
+
+                            <ImageView
+                                android:id="@+id/imageView8"
+                                android:layout_width="130dp"
+                                android:layout_height="130dp"
+                                app:layout_column="1"
+                                app:layout_row="1"
+                                app:srcCompat="@drawable/f14" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="27dp"
+                                android:layout_marginTop="110dp"
+                                android:text="Burgur Buter "
+                                android:textColor="#232321"
+                                android:textStyle="bold" />
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="25dp"
+                            app:cardBackgroundColor="#F7F1AD07"
+                            app:cardCornerRadius="40dp"
+                            app:layout_column="1"
+                            app:layout_row="1">
+
+                            <ImageView
+                                android:id="@+id/im5"
+                                android:layout_width="130dp"
+                                android:layout_height="130dp"
+                                app:layout_column="1"
+                                app:layout_row="1"
+                                app:srcCompat="@drawable/f16" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="27dp"
+                                android:layout_marginTop="110dp"
+                                android:text="Fire Burgur  "
+                                android:textColor="#232321"
+                                android:textStyle="bold" />
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="25dp"
+                            app:cardBackgroundColor="#F7F1AD07"
+                            app:cardCornerRadius="40dp"
+                            app:layout_column="0"
+                            app:layout_row="2">
+
+                            <ImageView
+                                android:id="@+id/chi"
+                                android:layout_width="130dp"
+                                android:layout_height="130dp"
+                                app:layout_column="1"
+                                app:layout_row="1"
+                                app:srcCompat="@drawable/f15" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginTop="110dp"
+                                android:text="chiku"
+                                android:textColor="#232321"
+                                android:textStyle="bold" />
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="90dp"
+                            android:layout_margin="30dp"
+                            app:cardBackgroundColor="#74ED0B"
+                            app:cardCornerRadius="90dp"
+                            app:layout_column="1"
+                            app:layout_gravity="center"
+                            app:layout_row="2">
+
+                            <ImageView
+                                android:id="@+id/move"
+                                android:layout_width="90dp"
+                                android:layout_height="70dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/ic_baseline_arrow_forward_ios_24"
+                                app:layout_column="1"
+                                app:layout_row="1" />
+
+                            <TextView
+                                android:id="@+id/cr3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginTop="110dp"
+                                android:text="View More"
+                                android:textColor="#232321"
+                                android:textStyle="bold" />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="35dp"
+                            android:layout_marginTop="110dp"
+                            android:text="vigen  pezza "
+                            android:textColor="#232321"
+                            android:textStyle="bold"
+                            app:layout_column="0"
+                            app:layout_row="1" />
+                    </androidx.gridlayout.widget.GridLayout>
+                </ScrollView>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="-60dp"
+            android:gravity="center"
+            android:background="@drawable/image_button"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/home"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/icon_backgroud_color"
+                app:srcCompat="@drawable/ic_baseline_home_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-77dp"
+                android:layout_marginTop="22dp"
+                android:text="Home"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/like"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/icon_backgroud_color"
+                app:srcCompat="@drawable/ic_baseline_favorite_border_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-60dp"
+                android:layout_marginTop="23dp"
+                android:text="Favorite"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/orderb1"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/icon_backgroud_color"
+                app:srcCompat="@drawable/ic_baseline_list_alt_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-59dp"
+                android:layout_marginTop="23dp"
+                android:text="Orderlist"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="23dp"
+                android:background="@drawable/icon_backgroud_color"
+                app:srcCompat="@drawable/ic_baseline_person_outline_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-46dp"
+                android:layout_marginTop="23dp"
+                android:text="Me"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/neterror"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone"
+        android:background="@color/white"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="157dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/ic_baseline_wifi_off_24" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Internet  Connection"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>
